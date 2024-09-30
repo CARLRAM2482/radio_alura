@@ -1,6 +1,7 @@
 package com.aluracursos.radioalura.principal;
 
 import com.aluracursos.radioalura.modelos.Cancion;
+import com.aluracursos.radioalura.modelos.Favoritos;
 import com.aluracursos.radioalura.modelos.Podcast;
 
 public class Principal {
@@ -32,6 +33,11 @@ public class Principal {
 
         System.out.println("total de reproduciones  " +miPodcast.getTotalDeReproduciones());
         System.out.println("total de megusta  " + miPodcast.getTotalDeMeGusta());
+
+
+        Favoritos favoritos = new Favoritos();
+        favoritos.adicione(miPodcast);
+        favoritos.adicione(miCancion);
 
 
     }
