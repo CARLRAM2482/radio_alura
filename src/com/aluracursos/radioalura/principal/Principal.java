@@ -7,12 +7,12 @@ import com.aluracursos.radioalura.modelos.Podcast;
 public class Principal {
     public static void main(String[] args){
         Cancion miCancion = new Cancion();
-        miCancion.setTitulo("Forever");
+        miCancion.setTitulo("Forever  ");
         miCancion.setCantante("ImgenD");
 
         Podcast miPodcast = new Podcast();
         miPodcast.setPresentador("maira perez");
-        miPodcast.setTitulo("emprendiendo");
+        miPodcast.setTitulo("emprendiendo  ");
 
         for (int i = 0; i< 100; i++) {
             miCancion.meGusta();
