@@ -1,0 +1,2 @@
+AudioPlayer Java App
+Esta aplicación en Java permite gestionar y reproducir audios, como canciones. Incluye una clase principal Audio, que puede ser extendida para crear objetos más específicos como Cancion, con atributos adicionales como álbum y género. La app permite reproducir canciones, dar "me gusta" y clasificar canciones favoritas. El código utiliza conceptos de Programación Orientada a Objetos (POO) como herencia y encapsulamiento. Para ejecutar el proyecto, solo se necesita un entorno Java configurado.
